@@ -1,0 +1,2 @@
+baseurl: /pynell
+exclude: ['README.md']
