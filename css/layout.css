@@ -1,3 +1,6 @@
+---
+---
+
 header {
   display: flex;
   flex-direction: column;
@@ -25,7 +28,7 @@ main ul {
 }
 
 main li {
-  background-image: url(/img/snowman-1.jpg);
+  background-image: url({{ site.baseurl }}/img/snowman-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 300px;
