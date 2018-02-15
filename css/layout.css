@@ -1,0 +1,113 @@
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header .nav-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  /*padding: 50px 32px 0;*/
+  padding: 10px 32px;
+
+  position: fixed;
+  width: 100%;
+}
+
+main ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+main li {
+  background-image: url(/img/snowman-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*ABOUT*/
+.flex-container--about {
+  background-color: #f05f40;
+  color: #fff;
+  min-height: 500px;
+}
+
+/*SERVICES & TEAM*/
+.flex-container ul {
+  width: 100%;
+}
+
+/*SERVICES*/
+.flex-container--services {
+  min-height: 500px;
+}
+
+.flex-container--services-info {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-container.flex-container--services-info {
+  min-height: auto;
+}
+
+.flex-container--services-info > div {
+  width: 300px;
+}
+
+/*PORTFOLIO & TEAM*/
+.flex-container--portfolio,
+.flex-container--team {
+  min-height: 300px;
+}
+
+.flex-container--portfolio-info,
+.flex-container--team-info {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+/*CONTACT*/
+.flex-container--contact {
+  min-height: 500px;
+}
+
+.flex-container--contact > p {
+  width: 50%;
+}
+
+.flex-container.flex-container--contact-info {
+  min-height: auto;
+}
+
+.flex-container--contact-info {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-container--contact-info > div {
+  margin: 10px;
+}
