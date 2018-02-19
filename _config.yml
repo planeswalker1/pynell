@@ -1,2 +1,2 @@
-baseurl: /pynell
-exclude: ['README.md']
+baseurl: ''
+title: Pynell

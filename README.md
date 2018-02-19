@@ -1,6 +1,6 @@
 # _pynell_
 
-#### _A website about our company v1.0, 02.14.2018_
+#### _A website about our company v2.0, 02.19.2018_
 
 #### By _**planeswalker1**_
 
