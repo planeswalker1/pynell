@@ -11,8 +11,14 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/base.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/layout.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/module.css">
+
+  <script src="main.js" defer></script>
 </head>
 <body>
-  {{ content }}
+  {% include frame.html %}
+  {% include responsive-nav.html %}
+  <div class="container">
+    {{ content }}
+  </div>
 </body>
 </html>

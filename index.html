@@ -9,13 +9,13 @@ layout: default
 <main>
   {% for content in site.data.main-content %}
   <div class="{% if content.reverse %}flex-container--reverse{% endif %} flex-container">
-    <div class="flex-container__div" style="background-image: url({{ content.bg-img}})">
+    <div class="flex-container__bg-img" style="background-image: url({{ content.bg-img}})">
     </div>
-    <div class="flex-container__div" style="background-color: #{{ content.bg-color }}">
+    <div class="flex-container__content" style="background-color: #{{ content.bg-color }}">
       <div>
-        <h2>{{ content.title }}</h2>
+        <h2 class="flex-container__h2">{{ content.title }}</h2>
         <p>{{ content.meta }}</p>
-        <p><a href="">{{ content.cta }}</a></p>
+        <p class="flex-container__cta-contain"><a class="flex-container__cta {% if content.reverse %}flex-container__cta--color{% endif %}" href="">{{ content.cta }}</a></p>
       </div>
     </div>
   </div>

@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.5px;
   color: #000;
-  margin: 30px;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -28,7 +28,7 @@ nav h1 {
   transform: rotate(-16deg);
 }
 
-ul {
+header nav ul, footer ul {
   display: flex;
   list-style-type: none;
   padding: 0;
@@ -36,6 +36,7 @@ ul {
 
 ul li {
   margin: 0 15px;
+  padding: 25px 0;
   text-transform: uppercase;
 }
 
@@ -44,4 +45,10 @@ ul li a {
   font-weight: 800;
   letter-spacing: 1px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 961px) {
+  header nav ul {
+    display: none;
+  }
 }
