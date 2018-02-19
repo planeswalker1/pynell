@@ -9,6 +9,7 @@
   cta: about us
   bg-color: 0a0a0a
   bg-img: images/bird-md.jpg
+  reverse: true
 
 - title: Join Pynell
   meta: Are you passionate about video games? We are looking for talented, creative and self-motivated people who share our love for games.

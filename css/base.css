@@ -1,0 +1,47 @@
+body {
+  line-height: 1.8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #000;
+  margin: 30px;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  height: 84.5vh;
+  height: 579px;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+}
+
+nav h1 {
+  color: #fff;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  transform: rotate(-16deg);
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0 15px;
+  text-transform: uppercase;
+}
+
+ul li a {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-decoration: none;
+}

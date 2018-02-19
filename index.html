@@ -8,14 +8,15 @@ layout: default
 
 <main>
   {% for content in site.data.main-content %}
-  <div class="flex-container">
-    <div>
-      <p>Hello</p>
+  <div class="{% if content.reverse %}flex-container--reverse{% endif %} flex-container">
+    <div class="flex-container__div" style="background-image: url({{ content.bg-img}})">
     </div>
-    <div>
-      <h2>{{ content.title }}</h2>
-      <p>{{ content.meta }}</p>
-      <p><a href="">{{ content.cta }}</a></p>
+    <div class="flex-container__div" style="background-color: #{{ content.bg-color }}">
+      <div>
+        <h2>{{ content.title }}</h2>
+        <p>{{ content.meta }}</p>
+        <p><a href="">{{ content.cta }}</a></p>
+      </div>
     </div>
   </div>
   {% endfor %}

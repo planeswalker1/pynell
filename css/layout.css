@@ -1,0 +1,23 @@
+.flex-container {
+  display: flex;
+  height: 450px;
+}
+
+.flex-container__div {
+  width: 50%;
+}
+
+.flex-container--reverse {
+  flex-direction: row-reverse;
+}
+
+
+footer {
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+}
