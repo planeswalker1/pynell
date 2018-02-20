@@ -28,6 +28,19 @@
   margin: 30px;
 }
 
+.contact {
+  align-items: center;
+  background-color: #f0feff;
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  padding: 30px 0;
+}
+
+.contact__card {
+  text-align: center;
+}
+
 .flex-container {
   display: flex;
   height: 450px;
@@ -111,6 +124,10 @@ footer {
 @media screen and (max-width: 961px) {
   .container {
     margin: 0;
+  }
+
+  .contact {
+    flex-direction: column;
   }
 
   .frame__bottom, .frame__top {

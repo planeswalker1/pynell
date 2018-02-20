@@ -1,1 +1,68 @@
+/* CONTACT SECTION */
+.formspree {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #030303;
+}
 
+.formspree > div {
+  display: inline-block;
+  min-width: 300px;
+  width: 600px;
+}
+
+.formspree form {
+  padding: 15px;
+}
+
+.formspree h2,
+label {
+  color: #fff;
+}
+
+.formspree h2 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+.form-group, label {
+  margin: 20px 0;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  border: 2px solid #171717;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  outline: none;
+  width: 100%;
+  padding: 13px 15px;
+}
+
+input:focus, textarea:focus {
+    border-color: #00D3EB;
+    transition: all 0.5s ease-in-out;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  margin-top: 10px;
+}
+
+input[type=submit] {
+  border-color: #fff;
+  border-width: 3px;
+  cursor: pointer;
+  font-size: 1.125em;
+}
+
+input[type=submit]:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.5s ease-in-out
+}

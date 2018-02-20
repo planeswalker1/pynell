@@ -2,3 +2,45 @@
 title: Contact
 layout: default
 ---
+
+{% include header.html %}
+
+<section class="contact">
+  <div class="contact__card ">
+    <i class="fas fa-map-marker"></i>
+    <p>
+      Pynell web inc.
+      <br />
+      Long Beach, California
+    </p>
+  </div>
+  <div class="contact__card ">
+    <i class="far fa-envelope"></i>
+    <p>
+      daniel.munozdev@gmail.com
+      <br />
+      theluckorange@yahoo.com
+    </p>
+  </div>
+</section>
+<section class="formspree">
+  <div>
+    <h2>GET IN TOUCH</h2>
+    <form action="https://formspree.io/daniel.munozdev@gmail.com"
+    method="POST">
+    <div class="form-group">
+      <label for="name">Name: </label>
+      <input id="name" type="text" name="name" placeholder="Your name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email: </label>
+      <input id="email" type="email" name="_replyto" placeholder="Your email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message: </label>
+      <textarea id="comment" name="message" rows="5" placeholder="Your message" required></textarea>
+    </div>
+    <input type="submit" value="SUBMIT">
+  </form>
+  </div>
+</section>
