@@ -1,6 +1,26 @@
 ---
 ---
 
+.about {
+  align-items: center;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.about__contain {
+  width: 66.67%;
+  padding: 55px 0;
+}
+
+
+.about__title {
+  background-color: #0a0a0a;
+  padding: 20px;
+  text-align: center;
+}
+
 .frame__top {
   position: fixed;
   top: 0;
@@ -46,6 +66,19 @@
   height: 450px;
 }
 
+.flex-container--height {
+  height: 350px;
+}
+
+.flex-container__content--color {
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.flex-container__content--color h2 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
 
 .flex-container__cta-contain {
   margin-top: 45px;
@@ -68,6 +101,19 @@
   background-color: #111;
 }
 
+.flex-container__icon {
+  align-items: center;
+  color: #000;
+  background-color: #FFB6C1;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.flex-container__icon svg {
+  font-size: 50px;
+}
+
 .flex-container__bg-img {
   background-position: center center;
   background-repeat: no-repeat;
@@ -87,12 +133,17 @@
   width: 66.78%;
 }
 
-.flex-container__h2 {
+.flex-container__h2, .about h2, .about__title h2 {
   font-weight: 300;
   font-size: 40px;
   font-style: italic;
   margin-bottom: 40px;
   text-transform: uppercase;
+}
+
+.about__title h2 {
+  color: #fff;
+  margin: 0;
 }
 
 .flex-container--reverse {

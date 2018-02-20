@@ -2,3 +2,38 @@
 title: About
 layout: default
 ---
+
+{% include header.html %}
+<section class="about">
+  <div class="about__contain">
+    <h2>About Pynell</h2>
+    <p>
+      Founded in 2018, we are an independent and growing American web studio. We are committed to building the next generation of websites.
+    </p>
+    <p>
+      Since we started our mission has been simple: to build generation-defining websites. To us, a generation-defining website consists of more than just a great website. They have a lasting impact on an entire sector of the population. They have a cultural impact, bring people together, create memories that will last a lifetime and push the entire medium of websites forward.
+    </p>
+    <p>
+      Generation-defining websites are few and far between. We have shaped our entire organization in a manner that we think will allow us to create websites of that caliber. We do not follow trends or emulate what others have done. We have a flat and open corporate structure that promotes the sharing and exploration of new, innovative and creative ideas.
+    </p>
+  </div>
+</section>
+<section>
+  <div class="about__title">
+    <h2>What be believe in</h2>
+  </div>
+  {% for content in site.data.about-content %}
+  <div class="{% if content.reverse %}flex-container--reverse{% endif %} flex-container flex-container--height">
+    <div class="flex-container__icon">
+      {{ content.icon}}
+    </div>
+      <div class="flex-container__content flex-container__content--color">
+      <div>
+        <h2 class="flex-container__h2">{{ content.title }}</h2>
+        <p>{{ content.meta }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+{% include footer.html %}
