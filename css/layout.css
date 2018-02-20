@@ -56,7 +56,9 @@
 }
 
 .flex-container__bg-img {
-  background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 95%;
   width: 50%;
 }
 

@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Websites
 layout: default
 ---
 
@@ -7,7 +7,7 @@ layout: default
 
 
 <main>
-  {% for content in site.data.main-content %}
+  {% for content in site.data.websites %}
   <div class="{% if content.reverse %}flex-container--reverse{% endif %} flex-container">
     <div class="flex-container__bg-img" style="background-image: url({{ content.bg-img}})">
     </div>
@@ -16,6 +16,7 @@ layout: default
         <h2 class="flex-container__h2">{{ content.title }}</h2>
         <p>{{ content.meta }}</p>
         <p class="flex-container__cta-contain"><a class="flex-container__cta {% if content.reverse %}flex-container__cta--color{% endif %}" href="{{ content.cta-href }}">{{ content.cta }}</a></p>
+        <p class="flex-container__cta-contain"><a class="flex-container__cta {% if content.reverse %}flex-container__cta--color{% endif %}" href="{{ content.cta-href2 }}">{{ content.cta2 }}</a></p>
       </div>
     </div>
   </div>

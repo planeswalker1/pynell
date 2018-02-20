@@ -1,12 +1,14 @@
 - title: Great Websites
   meta: Our goal is simple, to build the best websites available on the market!
   cta: Our websites
+  cta-href: websites.html
   bg-color: e8e8e8
   bg-img: images/bird-md.jpg
 
 - title: Our Story
   meta: Founded in 2018, we are an independent and growing American web studio. We are committed to building the next generation of websites.
   cta: about us
+  cta-href: about.html
   bg-color: 0a0a0a
   bg-img: images/bird-md.jpg
   reverse: true
@@ -14,5 +16,6 @@
 - title: Contact Us
   meta: Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!
   cta: work with us
+  cta-href: contact.html
   bg-color: 3f51b5
   bg-img: images/bird-md.jpg

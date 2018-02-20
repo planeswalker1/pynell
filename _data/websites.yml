@@ -1,0 +1,46 @@
+- title: Lanki
+  meta: Single page website
+  cta: Demo
+  cta-href: https://planeswalker1.github.io/lanki/
+  cta2: pricing
+  cta-href2: /
+  bg-color: e8e8e8
+  bg-img: images/lanki.png
+
+- title: Kube
+  meta: Single page website with carousel
+  cta: Demo
+  cta-href: https://colorlessenergy.github.io/kube/
+  cta2: pricing
+  cta-href2: https://www.google.com
+  bg-color: 0a0a0a
+  bg-img: images/kube.png
+  reverse: true
+
+- title: Brian's Kitchen
+  meta: Three page website with content you can edit
+  cta: Demo
+  cta-href: http://brians-kitchen.netlify.com
+  cta2: pricing
+  cta-href2: https://www.google.com
+  bg-color: e8e8e8
+  bg-img: images/brians-kitchen.png
+
+- title: Yum
+  meta: A restaurant website with content you can edit
+  cta: Demo
+  cta-href: http://yum.netlify.com
+  cta2: pricing
+  cta-href2: https://www.google.com
+  bg-color: 3f51b5
+  bg-img: images/yum.png
+  reverse: true
+
+- title: Even
+  meta: Eccomerce site with content you can edit
+  cta: Demo
+  cta-href: https://www.google.com
+  cta2: pricing
+  cta-href2: https://www.google.com
+  bg-color: e8e8e8
+  bg-img: images/bird-md.jpg
