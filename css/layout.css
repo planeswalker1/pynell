@@ -45,7 +45,7 @@
 
 .container {
   max-width: 1226px;
-  margin: 30px;
+  margin: 30px auto;
 }
 
 .contact {
