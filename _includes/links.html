@@ -1,0 +1,23 @@
+{% if page.url == '/' %}
+  <li><span class="on">home</span></li>
+{% else %}
+  <li><a href="{{ site.baseurl }}/"><span>ho</span>me</a></li>
+{% endif %}
+
+{% if page.url == '/websites.html' %}
+  <li><span class="on">our websites</span></li>
+{% else %}
+  <li><a href="{{ site.baseurl }}/websites.html"><span>ou</span>r websites</a></li>
+{% endif %}
+
+{% if page.url == '/about.html' %}
+  <li><span class="on">about us</span></li>
+{% else %}
+  <li><a href="{{ site.baseurl }}/about.html"><span>ab</span>out us</a></li>
+{% endif %}
+
+{% if page.url == '/contact.html' %}
+  <li><span class="on">contact us</span></li>
+{% else %}
+  <li><a href="{{ site.baseurl }}/contact.html"><span>co</span>ntact us</a></li>
+{% endif %}

@@ -1,3 +1,13 @@
-<header>
+<header
+  {% if page.url == '/' %}
+    style="background-image: url(images/queen-mary-1280.jpg)"
+  {% elsif page.url == '/websites.html' %}
+    style="background-image: url(images/pynell.png)"
+  {% elsif page.url == '/about.html' %}
+    style="background-image: url(images/long-beach-1280.jpg)"
+  {% elsif page.url == '/contact.html' %}
+    style="background-image: url(images/queen-mary-1280.jpg)"
+  {% endif %}
+>
   {% include nav.html %}
 </header>

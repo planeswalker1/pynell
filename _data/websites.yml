@@ -3,7 +3,7 @@
   cta: Demo
   cta-href: https://planeswalker1.github.io/lanki/
   cta2: pricing
-  cta-href2: /
+  cta-href2: https://www.google.com
   bg-color: e8e8e8
   bg-img: images/lanki.png
 
@@ -39,8 +39,8 @@
 - title: Even
   meta: Eccomerce site with content you can edit
   cta: Demo
-  cta-href: https://www.google.com
+  cta-href: https://troll1.netlify.com
   cta2: pricing
   cta-href2: https://www.google.com
   bg-color: e8e8e8
-  bg-img: images/bird-md.jpg
+  bg-img: images/e-com.png

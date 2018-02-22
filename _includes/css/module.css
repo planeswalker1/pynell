@@ -1,16 +1,16 @@
-/* CONTACT SECTION */
+/* CONTACT STYLES */
 .formspree {
   align-items: center;
+  background-color: #0a0a0a;
   display: flex;
   justify-content: center;
-  background-color: #0a0a0a;
 }
 
 .formspree > div {
   display: inline-block;
   min-width: 300px;
-  width: 600px;
   padding: 45px 0;
+  width: 600px;
 }
 
 .formspree form {
@@ -23,9 +23,9 @@ label {
 }
 
 .formspree h2 {
-  text-align: center;
   font-size: 2.5em;
   font-weight: 300;
+  text-align: center;
 }
 
 .form-group, label {
@@ -40,8 +40,8 @@ textarea {
   color: #fff;
   display: block;
   outline: none;
-  width: 100%;
   padding: 13px 15px;
+  width: 100%;
 }
 
 input:focus, textarea:focus {

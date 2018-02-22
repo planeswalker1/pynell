@@ -12,7 +12,11 @@ body {
   padding: 0;
 }
 
+/*HEADER STYLES*/
 header {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #000;
   height: 84.5vh;
   height: 579px;
@@ -38,6 +42,40 @@ header nav ul, footer ul {
   padding: 0;
 }
 
+/*LINK STYLES*/
+li a {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+li a:hover:after {
+  width: 24px;
+}
+
+li a:after {
+  content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    display: block;
+    width: 0;
+    background-color: #00D3EB;
+    transition: all 0.35s ease-in-out;
+}
+
+.on {
+  border-bottom: 3px solid #00D3EB;
+  padding-bottom: 3px;
+}
+
+ul li,
+ul li a {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
 ul li {
   margin: 0 15px;
   padding: 25px 0;
@@ -45,12 +83,10 @@ ul li {
 }
 
 ul li a {
-  color: #fff;
-  font-weight: 800;
-  letter-spacing: 1px;
   text-decoration: none;
 }
 
+/*ICON STYLES*/
 .svg-inline--fa {
   font-size: 30px;
 }
