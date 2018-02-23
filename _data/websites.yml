@@ -3,18 +3,18 @@
   cta: Demo
   cta-href: https://planeswalker1.github.io/lanki/
   cta2: pricing
-  cta-href2: https://www.google.com
+  cta-href2: contact.html
   bg-color: e8e8e8
-  bg-img: images/lanki.png
+  bg-img: images/lanki.jpg
 
 - title: Kube
   meta: Single page website with carousel
   cta: Demo
   cta-href: https://colorlessenergy.github.io/kube/
   cta2: pricing
-  cta-href2: https://www.google.com
+  cta-href2: contact.html
   bg-color: 0a0a0a
-  bg-img: images/kube.png
+  bg-img: images/kube.jpg
   reverse: true
 
 - title: Brian's Kitchen
@@ -22,18 +22,18 @@
   cta: Demo
   cta-href: http://brians-kitchen.netlify.com
   cta2: pricing
-  cta-href2: https://www.google.com
+  cta-href2: contact.html
   bg-color: e8e8e8
-  bg-img: images/brians-kitchen.png
+  bg-img: images/brians_kitchen.jpg
 
 - title: Yum
   meta: A restaurant website with content you can edit
   cta: Demo
   cta-href: http://yum.netlify.com
   cta2: pricing
-  cta-href2: https://www.google.com
+  cta-href2: contact.html
   bg-color: 3f51b5
-  bg-img: images/yum.png
+  bg-img: images/yum.jpg
   reverse: true
 
 - title: Even
@@ -41,6 +41,6 @@
   cta: Demo
   cta-href: https://troll1.netlify.com
   cta2: pricing
-  cta-href2: https://www.google.com
+  cta-href2: contact.html
   bg-color: e8e8e8
-  bg-img: images/e-com.png
+  bg-img: images/e_com.jpg
