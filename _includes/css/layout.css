@@ -99,8 +99,12 @@
 .flex-container__bg-img {
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 50%;
+}
+
+.flex-container__bg-img--width {
+  width: 100%;
 }
 
 .flex-container__content {
