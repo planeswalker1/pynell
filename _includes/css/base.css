@@ -34,6 +34,7 @@ nav h1 {
   letter-spacing: .1em;
   text-transform: uppercase;
   transform: rotate(-16deg);
+  transition: transform 0.5s ease;
 }
 
 header nav ul, footer ul {
@@ -92,6 +93,11 @@ ul li a {
 }
 
 @media screen and (max-width: 961px) {
+
+  header nav h1 {
+    transform: rotate(0);
+  }
+
   header nav ul {
     display: none;
   }

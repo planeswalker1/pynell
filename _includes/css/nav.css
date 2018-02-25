@@ -19,7 +19,7 @@ header {
 }
 
 .hamburger-menu__rect2 {
-  transform: rotate(-35deg) translate(-7px, 1px);
+  transform: rotate(-35deg) translate(-7px, 0);
 }
 
 .hamburger-menu__rect3 {
