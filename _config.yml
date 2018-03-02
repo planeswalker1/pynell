@@ -1,1 +1,3 @@
-title: Pynell
+baseurl: /pynell
+exclude: ['README.md']
+permalink: pretty

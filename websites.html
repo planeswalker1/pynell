@@ -1,6 +1,7 @@
 ---
-title: Websites
 layout: default
+title: Websites
+header-class: header--websites
 ---
 
 {% include header.html %}
@@ -9,7 +10,7 @@ layout: default
 <main>
   {% for content in site.data.websites %}
   <div class="{% if content.reverse %}flex-container--reverse{% endif %} flex-container">
-    <div class="flex-container__bg-img flex-container__bg-img--width" style="background-image: url({{ content.bg-img}})">
+    <div class="flex-container__bg-img flex-container__bg-img--width" style="background-image: url({{ site.baseurl }}/images/{{ content.bg-img}})">
     </div>
     <div class="flex-container__content" style="background-color: #{{ content.bg-color }}">
       <div>

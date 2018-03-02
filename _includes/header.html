@@ -1,13 +1,3 @@
-<header
-  {% if page.url == '/' %}
-    style="background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(images/queen_mary_1280.jpg)"
-  {% elsif page.url == '/websites.html' %}
-    style="background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(images/pynell.jpg)"
-  {% elsif page.url == '/about.html' %}
-    style="background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(images/long_beach_1280.jpg)"
-  {% elsif page.url == '/contact.html' %}
-    style="background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(images/queen_mary_1280.jpg)"
-  {% endif %}
->
+<header class="{{ page.header-class }}">
   {% include nav.html %}
 </header>

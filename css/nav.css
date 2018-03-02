@@ -1,0 +1,86 @@
+header {
+  position: relative;
+}
+
+.header--home {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/queen_mary_1280.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/queen_mary_1280.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/queen_mary_1280.jpg);
+}
+
+.header--websites {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/pynell.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/pynell.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/pynell.jpg);
+}
+
+.header--about {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/long_beach_1280.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/long_beach_1280.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/long_beach_1280.jpg);
+}
+
+.header--contact {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/queen_mary_1280.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/queen_mary_1280.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../images/queen_mary_1280.jpg);
+}
+
+.hamburger-menu {
+  display: none;
+  fill: #fff;
+
+
+  width: 20px;
+}
+
+.hamburger-menu rect {
+  transition: all 0.5s;
+}
+
+.hamburger-menu__rect1 {
+  transform: rotate(35deg) translate(3px, -1px);
+}
+
+.hamburger-menu__rect2 {
+  transform: rotate(-35deg) translate(-7px, 0);
+}
+
+.hamburger-menu__rect3 {
+  opacity: 0;
+}
+
+.responsive-nav {
+  background-color: rgba(0, 0, 0, 0.8);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+
+.respsonive-nav__ul {
+  margin-top: 129px;
+  list-style-type: none;
+}
+
+.responsive-nav__show {
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 961px) {
+  .hamburger-menu {
+    display: block;
+  }
+
+  nav {
+    position: relative;
+    z-index: 2;
+  }
+
+}

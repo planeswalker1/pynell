@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <title>{% if page.title %}{{ page.title }} · {% endif %}Pynell{% if page.title-after %} · {{ page.title-after }}{% endif %}</title>
   <!-- font awesome cdn -->
   <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js" defer></script>
   <!-- google font cdn -->

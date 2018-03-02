@@ -1,7 +1,7 @@
 ---
 ---
 
-{% include css/base.css %}
-{% include css/nav.css %}
-{% include css/layout.css %}
-{% include css/module.css %}
+{% include_relative base.css %}
+{% include_relative nav.css %}
+{% include_relative layout.css %}
+{% include_relative module.css %}

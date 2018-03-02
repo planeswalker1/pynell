@@ -5,7 +5,7 @@
   cta2: pricing
   cta-href2: contact.html
   bg-color: e8e8e8
-  bg-img: images/lanki.jpg
+  bg-img: lanki.jpg
 
 - title: Kube
   meta: Single page website with carousel
@@ -14,7 +14,7 @@
   cta2: pricing
   cta-href2: contact.html
   bg-color: 0a0a0a
-  bg-img: images/kube.jpg
+  bg-img: kube.jpg
   reverse: true
 
 - title: Brian's Kitchen
@@ -24,7 +24,7 @@
   cta2: pricing
   cta-href2: contact.html
   bg-color: e8e8e8
-  bg-img: images/brians_kitchen.jpg
+  bg-img: brians_kitchen.jpg
 
 - title: Yum
   meta: A restaurant website with content you can edit
@@ -33,7 +33,7 @@
   cta2: pricing
   cta-href2: contact.html
   bg-color: 3f51b5
-  bg-img: images/yum.jpg
+  bg-img: yum.jpg
   reverse: true
 
 - title: Even
@@ -43,4 +43,4 @@
   cta2: pricing
   cta-href2: contact.html
   bg-color: e8e8e8
-  bg-img: images/e_com.jpg
+  bg-img: e_com.jpg
