@@ -3,7 +3,7 @@
   cta: Demo
   cta-href: https://planeswalker1.github.io/lanki/
   cta2: pricing
-  cta-href2: /contact/
+  cta-href2: /contact/#contact
   bg-color: e8e8e8
   bg-img: lanki.jpg
 
@@ -12,7 +12,7 @@
   cta: Demo
   cta-href: https://colorlessenergy.github.io/kube/
   cta2: pricing
-  cta-href2: /contact/
+  cta-href2: /contact/#contact
   bg-color: 0a0a0a
   bg-img: kube.jpg
   reverse: true
@@ -22,7 +22,7 @@
   cta: Demo
   cta-href: http://brians-kitchen.netlify.com
   cta2: pricing
-  cta-href2: /contact/
+  cta-href2: /contact/#contact
   bg-color: e8e8e8
   bg-img: brians_kitchen.jpg
 
@@ -31,7 +31,7 @@
   cta: Demo
   cta-href: http://yum.netlify.com
   cta2: pricing
-  cta-href2: /contact/
+  cta-href2: /contact/#contact
   bg-color: 3f51b5
   bg-img: yum.jpg
   reverse: true
@@ -41,6 +41,6 @@
   cta: Demo
   cta-href: https://troll1.netlify.com
   cta2: pricing
-  cta-href2: /contact/
+  cta-href2: /contact/#contact
   bg-color: e8e8e8
   bg-img: e_com.jpg
